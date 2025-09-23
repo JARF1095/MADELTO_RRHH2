@@ -4,7 +4,7 @@ import numpy as np
 import streamlit as st
 import plotly.express as px
 
-Datos = pd.read_csv("Resumen de Asistencia_20250922153841.csv", header = 0)
+Datos = pd.read_csv("Resumen.csv", header = 0)
 
 # Extraer la última columna
 Ultima_col = Datos.iloc[:,-1]
